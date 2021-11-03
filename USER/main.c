@@ -27,7 +27,7 @@ int main(void)
 	
 	
 	TIM2_Getsample_Int(1999,719);		//50ms任务定时中断
-
+	printf("success");
 
 	while(1)
 	{	
